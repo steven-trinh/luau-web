@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      luau-web:
+        specifier: 'file:'
+        version: 'file:'
     devDependencies:
       '@rollup/plugin-commonjs':
         specifier: ^28.0.7
@@ -210,6 +214,9 @@ packages:
   is-reference@1.2.1:
     resolution: {integrity: sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==}
 
+  'luau-web@file:':
+    resolution: {directory: '', type: directory}
+
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
 
@@ -371,6 +378,8 @@ snapshots:
   is-reference@1.2.1:
     dependencies:
       '@types/estree': 1.0.8
+
+  'luau-web@file:': {}
 
   magic-string@0.30.19:
     dependencies:

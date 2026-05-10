@@ -35,5 +35,8 @@
         "@rollup/plugin-node-resolve": "^16.0.3",
         "prettier": "^3.8.1",
         "rollup": "^4.52.4"
+    },
+    "dependencies": {
+        "luau-web": "file:"
     }
 }
